@@ -6,35 +6,106 @@
 }
 
 
-.nav-toggle{
-    
-   
-    
-}
 
 
-.wrap{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap-1, .wrap-2, .wrap-3{
      float: right;
     max-width: none;
    
     
     
 }
-.box {
+
+
+.wrap-1{
+   padding-right: 2rem; 
+}
+
+
+.wrap-2{
+  transform: translateX(40px);
+
+    
+}
+
+.wrap-3{
+  transform: translateX(80px);
+
+    
+}
+
+.box-1 {
   border-radius: 50%;
   height: 40px;
-  margin: 50px auto;
+  margin: 2rem auto;
     background: black;
   width: 40px;
     cursor: pointer;
    
 }
-  
-  .wrap:hover{
-    transform: scale(1.4);
-       transition: all 300ms;
-      
 
+.box-2 {
+  border-radius: 50%;
+  height: 40px;
+  margin: 2rem auto;
+    background: black;
+  
+  width: 40px;
+    cursor: pointer;
+   
+}
+
+.box-3 {
+  border-radius: 50%;
+  height: 40px;
+  margin: 2rem auto;
+    background: black;
+  
+  width: 40px;
+    cursor: pointer;
+   
+}
+
+.wrap-1, .wrap-2, .wrap-3{
+         transition: all 300ms;
+}
+  
+  .planetarium:hover >.wrap-1{
+    transform: scale(1); 
+}
+.planetarium:hover >.wrap-2{
+     transform: scale(0.8);
+    
+}
+
+.planetarium:hover >.wrap-3{
+     transform: scale(0.6);
+    
 }
 
 
@@ -58,6 +129,12 @@ th, thead, time, tr, tt, u, ul, var, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline
+}
+
+
+
+html{
+    height: 100%;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
@@ -170,7 +247,7 @@ section {
 	
 
 	div {
-		max-width: 255px;
+		
 		word-wrap: break-word;
 	
 		line-height: 24px;}
@@ -270,10 +347,12 @@ section {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: black;
     overflow-y: hidden;
     transition: 0.5s;
 	font-family:Affogato-Bold;
+    text-transform: uppercase;
+    
     max-width: none;
 }
 
@@ -284,21 +363,25 @@ section {
     position: relative;
     top: 25%;
     width: 100%;
+    height: 100%;
     text-align: center;
-    margin-top: 30px;
+  vertical-align: center;
+    
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 0.5em;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-size: 10em;
+    color: white;
+
     display: block;
-    transition: 0.3s;
+    transition: 0.6s;
+    
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: grey;
 }
 
 .overlay .closebtn {
@@ -318,3 +401,120 @@ section {
     right: 35px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Web Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+
+
+section {
+  /*overflow: hidden;*/
+  width: 60em;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+.cover {
+ 
+  color: white;
+  width: 40%;
+  margin: 0;
+  padding: 1% 7% 1% 10%;
+  float: left;
+  margin-right: 2em;
+  display: block;
+ /* box-shadow: 0em 0em 5em rgba(10,10,10,0.7); */
+}
+
+.stack {
+
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 0.7em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+}
+
+
+span {
+position: relative;
+  
+
+}
+
+/* B */
+.char1 {
+  margin-left: -.2em;
+  z-index: 4;
+  text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+}
+
+/* L */
+.char2 {
+ z-index: 1; 
+
+    left: 0.2em;
+  top: 0.em;
+    bottom:0.6em;
+    text-shadow: -0.02em 0.02em 0.2em rgba(10,10,10,0.9);
+
+}
+
+/* O */
+.char3 {
+  z-index: -9;
+left: 0.4em;
+    bottom: 1.2em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+  
+}
+
+/* G */
+.char4 {
+  z-index: -9;
+left: 0.9em;
+    bottom: 2em;
+  text-shadow: 0.02em -0.02em 0.2em rgba(10,10,10,0.9);
+}
+
+
+
+
+
