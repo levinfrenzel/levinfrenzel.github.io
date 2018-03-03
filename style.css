@@ -8,11 +8,41 @@
 
 .nav-toggle{
     
-    float: right;
-    font-size:30px;
-    cursor:pointer;
+   
     
 }
+
+
+.wrap{
+     float: right;
+    max-width: none;
+   
+    
+    
+}
+.box {
+  border-radius: 50%;
+  height: 40px;
+  margin: 50px auto;
+    background: black;
+  width: 40px;
+    cursor: pointer;
+   
+}
+  
+  .wrap:hover{
+    transform: scale(1.4);
+       transition: all 300ms;
+      
+
+}
+
+
+
+
+
+
+
 
 
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
@@ -244,6 +274,7 @@ section {
     overflow-y: hidden;
     transition: 0.5s;
 	font-family:Affogato-Bold;
+    max-width: none;
 }
 
 
@@ -272,9 +303,10 @@ section {
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 2rem;
+    right: 2rem;
     font-size: 60px;
+    float: right;
 }
 
 @media screen and (max-height: 450px) {
