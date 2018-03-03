@@ -202,7 +202,11 @@ section {
 		-webkit-transform:translate(-30px, -2px);
 	}
 
+.date{
+	float: right;
+	font-size: 0.8rem;
 
+}
 
 
 
