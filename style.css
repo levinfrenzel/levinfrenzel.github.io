@@ -43,7 +43,7 @@ section {
 		-webkit-transform:translate(0, -2px);
 }
 
-frome-me:after {
+.from-me:after {
 		content:"";
 		position:absolute;
 		z-index:1;
@@ -65,7 +65,7 @@ frome-me:after {
   float: left;
 }
 		
-	frome-them:before {
+	.from-them:before {
 		content:"";
 		position:absolute;
 		z-index:2;
@@ -77,7 +77,7 @@ frome-me:after {
 		-webkit-transform:translate(0, -2px);
 	}
 
-	from-them:after {
+.from-them:after {
 		content:"";
 		position:absolute;
 		z-index:3;
