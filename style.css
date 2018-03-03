@@ -112,7 +112,7 @@ body {
 
 body {
 	font-family: "Helvetica Neue";
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: normal;
 }
 
@@ -202,6 +202,15 @@ section {
 		-webkit-transform:translate(-30px, -2px);
 	
 }
+
+.date{
+	display: block;
+	color: red;
+	font-size: 0.6rem;
+}
+
+
+
 
 
 
