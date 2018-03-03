@@ -60,9 +60,7 @@ html::-webkit-scrollbar {
 }
 
 @media (min-width:480px) {
-    html {
-        font-size: 16px
-    }
+   
 }
 
 body {
