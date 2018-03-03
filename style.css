@@ -6,6 +6,13 @@
 }
 
 
+.nav-toggle{
+    
+    float: right;
+    font-size:30px;
+    cursor:pointer;
+    
+}
 
 
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
