@@ -7,10 +7,6 @@
 
 
 
-body{
-    font-family: 'Helvetica';
-    
-}
 
 
 .wrap-1, .wrap-2, .wrap-3{
@@ -23,7 +19,7 @@ body{
 
 
 .wrap-1{
-   padding-right: 2rem; 
+   padding-right: 2.5em; 
 }
 
 
@@ -42,7 +38,7 @@ body{
 .box-1 {
   border-radius: 50%;
   height: 40px;
-  margin: 2rem auto;
+  margin: 2.5em auto;
     background: black;
   width: 40px;
     cursor: pointer;
@@ -52,7 +48,7 @@ body{
 .box-2 {
   border-radius: 50%;
   height: 40px;
-  margin: 2rem auto;
+  margin: 2.5em auto;
     background: black;
   
   width: 40px;
@@ -63,7 +59,7 @@ body{
 .box-3 {
   border-radius: 50%;
   height: 40px;
-  margin: 2rem auto;
+  margin: 2.5em auto;
     background: black;
   
   width: 40px;
@@ -109,12 +105,15 @@ th, thead, time, tr, tt, u, ul, var, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline
+
 }
 
 
 
 html{
     height: 100%;
+        
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
@@ -174,7 +173,7 @@ body {
     margin: 0 auto;
     max-width: 1280px;
     padding: 1.5rem 1rem 1rem;
-    text-transform: uppercase
+    
 }
 
 .main__content {
@@ -222,7 +221,10 @@ section {
 	color:white; 
 	background:#0B93F6;
 	border-radius:25px;
-	float: right;}
+	float: right;
+    
+
+}
 		
 	.from-me:before {
 		content:"";
@@ -256,7 +258,11 @@ section {
 	border-radius:25px;
 	color: black;
   float: left;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
 }
+
+
+
 		
 	.from-them:before {
 		content:"";
@@ -284,7 +290,7 @@ section {
 	}
 
 .date{
-	
+	    font-family: 'San Francisco', Helvetica, Arial, san-serif;
 	font-size: 0.9rem;
 	color: darkgrey;
 	clear: both;
@@ -336,8 +342,15 @@ section {
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: grey;
+    color: red;
 }
+
+
+
+
+
+
+
 
 .overlay .closebtn {
     position: absolute;
@@ -442,7 +455,11 @@ left: 0.4em;
 left: 0.9em;
     bottom: 2em;
   text-shadow: 0.02em -0.02em 0.2em rgba(10,10,10,0.9);
+
+    
 }
+
+
 
 
 
@@ -508,6 +525,8 @@ left: 0.8em;
     bottom: 1.4em;
   text-shadow: 0.02em -0.02em 0.2em rgba(10,10,10,0.9);
 }
+
+    
 
     
     
