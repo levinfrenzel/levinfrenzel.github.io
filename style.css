@@ -118,19 +118,20 @@ body {
 
 section {
 	max-width: 450px;
-	margin: 50px auto;
+	margin: 50px auto;}
 
 	div {
 		max-width: 255px;
 		word-wrap: break-word;
 		margin-bottom: 12px;
-    line-height: 24px;
-    &:after {
+		line-height: 24px;}
+		
+   section:after {
       content: "";
       display: table;
       clear: both;
-    }
-	}
+    
+	
 }
 
 .clear {clear: both}
