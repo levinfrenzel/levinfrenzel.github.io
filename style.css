@@ -24,10 +24,36 @@
      * prefixes as well as the official syntax for now. Remember, tools like 
      * CSS Please are your friends!
      */
-    -webkit-animation: myOrbit 16s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit 16s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit 16s linear infinite; /* Opera 12+ */
-            animation: myOrbit 16s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: myOrbit 30s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 30s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 30s linear infinite; /* Opera 12+ */
+            animation: myOrbit 30s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+    
+    
+    
+}
+
+
+
+.mars {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myMars 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myMarst 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myMars 20s linear infinite; /* Opera 12+ */
+            animation: myMars 20s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
     
     
@@ -64,6 +90,38 @@
 
 
 
+@-webkit-keyframes myMars {
+    from { -webkit-transform: rotate(0deg) translateX(2em) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(2em) rotate(-360deg); }
+}
+
+@-moz-keyframes myMars {
+    from { -moz-transform: rotate(0deg) translateX(2em) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(2em) rotate(-360deg); }
+}
+
+@-o-keyframes myMars {
+    from { -o-transform: rotate(0deg) translateX(2em) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(2em) rotate(-360deg); }
+}
+
+@keyframes myMars {
+    from { transform: rotate(0deg) translateX(2em) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(2em) rotate(-360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .wrap-1, .wrap-2, .wrap-3{
@@ -82,9 +140,6 @@ position: absolute;
 
 
 .wrap-2{
-  
-
-    
 }
 
 .wrap-3{
@@ -103,8 +158,8 @@ position: absolute;
    
     transform-origin: center;
     transform: scale(3);
-    transform: scale(2.4);
-     
+   
+     box-shadow: 2px solid
    
 }
 
@@ -115,9 +170,11 @@ position: absolute;
 
   height: 1em;
      width: 1em;
-  background: black;
+  background: #FF0057;
    
     cursor: pointer;
+      transform: scale(0.8);
+  
    
 }
 
@@ -125,8 +182,9 @@ position: absolute;
   border-radius: 50%;
  height: 1em;
      width: 1em;
- background: black;
+ background: red;
    cursor: pointer;
+      transform: scale(0.6);
    
 }
 
